@@ -4,18 +4,16 @@
   --focus-color: #2196f3;
   --heigh-logo-color: black;
   --hero-background-color: #2f303a;
-  --hero-text-color: #ffffff;
+  --hero-text-logo-color: #ffffff;
   --footer-bcg-color: #2f303a;
-  --footer-logo-color: white;
-  --footer-contact-color: rgba(255, 255, 255, 0.6);
+  --contact-color: rgba(255, 255, 255, 0.6);
   --nav-logo-web-color: #2196f3;
-  --cards-bcg-color: white;
   --hero-button-fh-color: #188ce8;
   --main-letter-spacing: 0.03em;
 }
 
 body {
-  font-family: "Roboto", "sans-serif";
+  font-family: "Roboto", sans-serif;
   color: var(--main-text-color);
   background-color: white;
   letter-spacing: 0.03em;
@@ -23,7 +21,7 @@ body {
 }
 
 .nav-logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -72,11 +70,11 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--hero-text-color);
+  color: var(--hero-text-logo-color);
 }
 .hero-button {
-  font-family: "Roboto";
-  font-weight: 700;
+  font-family: inherit;
+  font-weight: bold;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
@@ -84,7 +82,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   background-color: var(--focus-color);
-  color: var(--hero-text-color);
+  color: var(--hero-text-logo-color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
 }
@@ -146,7 +144,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--footer-logo-color);
+  color: var(--hero-text-logo-color);
   text-decoration: none;
 }
 .footer-logo-web {
@@ -155,13 +153,13 @@ body {
 .address-geography {
   font-style: normal;
   line-height: 1.71;
-  color: var(--hero-text-color);
+  color: var(--hero-text-logo-color);
   text-decoration: none;
 }
 .footer-contact {
   font-style: normal;
   line-height: 1.71;
-  color: var(--footer-contact-color);
+  color: var(--contact-color);
   text-decoration: none;
 }
 /* --------------------------portfolio--------------------------- */
@@ -184,6 +182,16 @@ body {
   letter-spacing: 0.03em;
   color: var(--main-text-color);
 }
+.project-title {
+  color: var(--title-text-color);
+  text-decoration: none;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
 
 .hero-button,
 .portfolio-button {
@@ -203,5 +211,5 @@ body {
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--focus-color);
-  color: var(--hero-text-color);
+  color: var(--hero-text-logo-color);
 }
