@@ -101,6 +101,7 @@ body {
   color: var(--title-text-color);
   letter-spacing: var(--main-letter-spacing);
   font-size: 14px;
+  text-transform: uppercase;
 }
 .exelents-text {
   line-height: 1.71;
